@@ -1,0 +1,33 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+            <item android:title=""  ></item>
+
+
+
+
+    <item android:title="Portadas/Covers">
+        <menu>
+            <item android:title="Compose" android:id="@+id/navigation_item_2" android:icon="@drawable/composea" ></item>
+            <item android:title="ESPAÑA"  android:icon="@drawable/inbox" ></item>
+            <item android:title="ENGLAND" android:icon="@drawable/senta"></item>
+        </menu>
+    </item>
+
+
+
+    <item android:title="Others">
+        <menu>
+            <item
+                android:title="Spam" android:icon="@drawable/spam"/>
+            <item
+                android:title="Bin" android:icon="@drawable/bin"/>
+        </menu>
+    </item>
+
+
+
+
+
+
+</menu>

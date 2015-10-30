@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+            <item android:title=""  ></item>
+
+
+
+
+    <item android:title="Portadas/Covers">
+        <menu>
+            <item android:title="ESPAÑA"
+                  android:id="@+id/nav_item_inbox"
+                  android:icon="@drawable/inbox"
+                android:layout_marginTop="72dp"/>
+
+            <item android:title="ENGLAND"
+                  android:id="@+id/nav_item_sent"
+                  android:icon="@drawable/sent"/>
+        </menu>
+    </item>
+
+
+
+    <item android:title="Others">
+        <menu>
+            <item
+                android:title="Spam"
+                android:icon="@drawable/spam"/>
+            <item
+                android:title="Bin"
+                android:icon="@drawable/bin"/>
+        </menu>
+    </item>
+
+
+
+
+</menu>
